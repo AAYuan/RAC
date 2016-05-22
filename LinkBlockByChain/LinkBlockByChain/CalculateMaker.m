@@ -15,7 +15,6 @@
 //    _result += num;
 //    return self;
 //}
-
 - (CalculateMaker *(^)(int num))add
 {
     return ^(int num){
