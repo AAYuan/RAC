@@ -15,6 +15,8 @@
 		83A7428E1CF1ED5900BA2912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A7428C1CF1ED5900BA2912 /* LaunchScreen.storyboard */; };
 		83A742991CF1ED5900BA2912 /* LinkBlockByChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A742981CF1ED5900BA2912 /* LinkBlockByChainTests.m */; };
 		83A742A41CF1ED5900BA2912 /* LinkBlockByChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A742A31CF1ED5900BA2912 /* LinkBlockByChainUITests.m */; };
+		83A742B31CF1F48C00BA2912 /* CalculateMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A742B21CF1F48C00BA2912 /* CalculateMaker.m */; };
+		83A742B61CF1F5BE00BA2912 /* NSObject+Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A742B51CF1F5BE00BA2912 /* NSObject+Calculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		83A7429F1CF1ED5900BA2912 /* LinkBlockByChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkBlockByChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A742A31CF1ED5900BA2912 /* LinkBlockByChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinkBlockByChainUITests.m; sourceTree = "<group>"; };
 		83A742A51CF1ED5900BA2912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A742B11CF1F48C00BA2912 /* CalculateMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculateMaker.h; sourceTree = "<group>"; };
+		83A742B21CF1F48C00BA2912 /* CalculateMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculateMaker.m; sourceTree = "<group>"; };
+		83A742B41CF1F5BE00BA2912 /* NSObject+Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Calculate.h"; sourceTree = "<group>"; };
+		83A742B51CF1F5BE00BA2912 /* NSObject+Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Calculate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				83A7428C1CF1ED5900BA2912 /* LaunchScreen.storyboard */,
 				83A7428F1CF1ED5900BA2912 /* Info.plist */,
 				83A7427E1CF1ED5900BA2912 /* Supporting Files */,
+				83A742B11CF1F48C00BA2912 /* CalculateMaker.h */,
+				83A742B21CF1F48C00BA2912 /* CalculateMaker.m */,
+				83A742B41CF1F5BE00BA2912 /* NSObject+Calculate.h */,
+				83A742B51CF1F5BE00BA2912 /* NSObject+Calculate.m */,
 			);
 			path = LinkBlockByChain;
 			sourceTree = "<group>";
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A742861CF1ED5900BA2912 /* ViewController.m in Sources */,
+				83A742B31CF1F48C00BA2912 /* CalculateMaker.m in Sources */,
 				83A742831CF1ED5900BA2912 /* AppDelegate.m in Sources */,
 				83A742801CF1ED5900BA2912 /* main.m in Sources */,
+				83A742B61CF1F5BE00BA2912 /* NSObject+Calculate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+@class  CalculateMaker;
 
 @interface NSObject (Calculate)
+
++ (NSInteger)makeCalculate:(void (^)(CalculateMaker *))block;
 
 @end

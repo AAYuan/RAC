@@ -10,4 +10,19 @@
 
 @implementation CalculateMaker
 
+//- (instancetype)add:(NSInteger)num
+//{
+//    _result += num;
+//    return self;
+//}
+
+- (CalculateMaker *(^)(int num))add
+{
+    return ^(int num){
+        _result += num;
+        
+        return self;
+    };
+}
+
 @end

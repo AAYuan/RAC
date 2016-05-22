@@ -10,4 +10,11 @@
 
 @interface CalculateMaker : NSObject
 
+/** 计算结果 */
+@property (nonatomic, assign) NSInteger result;
+
+//- (instancetype)add:(NSInteger)num;
+
+- (CalculateMaker *(^)(int num))add;
+
 @end
